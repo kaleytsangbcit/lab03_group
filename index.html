@@ -19,152 +19,165 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
-  <header>
+  <header class="section__page">
     <div class="logo">
         <div>Metrolics</div>
         <img src="./img/graphic.png" alt="logo">
     </div>
    
-    <div class="page_nav">
-        <div class="btn_home">
+    <div class="page__nav">
+        <div class="btn__home">
             <img src="./img/Group 1.png" alt="home">
             <div>Home</div>
         </div>
-        <div class="btn_pages">
+        <div class="btn__pages">
             <img src="./img/Group 5.png" alt="pages">
             <div>Pages</div>
         </div>
-        <div class="btn_blog">
+        <div class="btn__blog">
             <img src="./img/Group 2.png" alt="blog">
             <div>Blog</div>
         </div>
-        <div class="btn_portfolio">
+        <div class="btn__portfolio">
             <img src="./img/Group 3.png" alt="portfolio">
             <div>Portfolio</div>
         </div>
-        <div class="btn_contact">
+        <div class="btn__contact">
             <img src="./img/Group 4.png" alt="contact">
             <div>Contact</div>
         </div>
     </div>
-</header>
+  </header>
 
-<div class="slider">
-  <img src="./img/slider mask.png" alt="slider-image" class="slider_image">
-  <div class="slider_nav">
-      <img src="./img/left.png" alt="slider-left" class="left">
-      <img src="./img/right.png" alt="slider-right" class="right">
-  </div>
-  <div class="slider_content">
-      <div class="metro">Metro Style</div>
-      <div class="retina">Retina Ready</div>
-      <div class="responsive">Responsive Design</div>
-  </div>
-</div>
+<section class="page__slider">
+  <section class="section__slider">
+    <img src="./img/slider mask.png" alt="slider-image" class="slider__image">
+    <div class="slider_nav">
+        <img src="./img/left.png" alt="slider-left" class="slider__left">
+        <img src="./img/right.png" alt="slider-right" class="slider__right">
+    </div>
+    <div class="slider__content">
+        <div class="slider__content__1">Metro Style</div>
+        <div class="slider__content__2">Retina Ready</div>
+        <div class="slider__content__3">Responsive Design</div>
+    </div>
+  </section>
+</section>
 
-<div class="home_page_intro">
-  <h2>Hey guys! This is the Metrolics theme. It sports a responsive layout with a mobile layout.</h2>
-</div>
-
-<div class="section_services">
-  <div class="section_header">
-      <h3>Things That We Do</h3>
-      <p>Ask us what we can do for you</p>
-  </div>
-  <div class="column_span_3">
-      <div class="column_web_solutions">
-          <img src="./img/icon.png" alt="web-sol">
-          <h4>Web Solutions</h4>
-          <p>We are a fairly small, flexible design studio that designs for print and web. We work flexibily with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials</p>
-      </div>
-      <div class="column_web_photo">
-          <img src="./img/icon2.png" alt="photo">
-          <h4>Photography</h4>
-          <p>We are a fairly small, flexible design studio that designs for print and web. We work flexibily with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials</p>
-      </div>
-      <div class="column_web_dev">
-          <img src="./img/icon3.png" alt="web-dev">
-          <h4>Web Development</h4>
-          <p>We are a fairly small, flexible design studio that designs for print and web. We work flexibily with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials</p>
-      </div>
-      <div class="column_web_design">
-          <img src="./img/icon4.png" alt="web-design">
-          <h4>Web Design</h4>
-          <p>We are a fairly small, flexible design studio that designs for print and web. We work flexibily with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials</p>
-      </div>
+<main>
+  <div class="home__page__intro">
+    <h2>Hey guys! This is the Metrolics theme. It sports a responsive layout with a mobile layout.</h2>
   </div>
 
-  <div class="section_blog">
-    <div class="section_header">
+  <section class="section__services">
+    <div class="section__header">
+        <h3>Things That We Do</h3>
+        <p>Ask us what we can do for you</p>
+    </div>
+    <div class="column__span__3">
+        <div class="column__web__solutions">
+            <img src="./img/icon.png" alt="web-sol">
+            <h4>Web Solutions</h4>
+            <p>We are a fairly small, flexible design studio that designs for print and web. We work flexibily with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials</p>
+        </div>
+        <div class="column__web__photo">
+            <img src="./img/icon2.png" alt="photo">
+            <h4>Photography</h4>
+            <p>We are a fairly small, flexible design studio that designs for print and web. We work flexibily with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials</p>
+        </div>
+        <div class="column__web__dev">
+            <img src="./img/icon3.png" alt="web-dev">
+            <h4>Web Development</h4>
+            <p>We are a fairly small, flexible design studio that designs for print and web. We work flexibily with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials</p>
+        </div>
+        <div class="column__web__design">
+            <img src="./img/icon4.png" alt="web-design">
+            <h4>Web Design</h4>
+            <p>We are a fairly small, flexible design studio that designs for print and web. We work flexibily with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="section__blog">
+    <div class="section__header">
         <h3>What's Up Lately?</h3>
         <p>Read up on our latest work</p>
     </div>
 
-    <ul class="column_span_4">
+    <ul class="column__span__4">
         <li>
-            <div class="entry_date">
+            <div class="entry__date">
                 <h4>29</h4>
                 <p>Nov. 2013</p>
             </div>
-            <div class="entry_description">
+            <div class="entry__description">
                 <img src="./img/entrybutton.png" alt="entry-description">
-                <h4>Sample Image Post</h4>
-                <p>Photography</p>
+                <div class="entry__description__word">
+                  <h4>Sample Image Post</h4>
+                  <p>Photography</p>
+                </div>
             </div>
-            <img src="./img/entry-image.png" alt="entry-img" class="entry_img">
+            <img src="./img/entry-image.png" alt="entry-img" class="entry__img">
         </li>
         <li>
-            <div class="entry_date">
+            <div class="entry__date">
                 <h4>29</h4>
                 <p>Nov. 2013</p>
             </div>
-            <div class="entry_description">
+            <div class="entry__description">
                 <img src="./img/entrybutton.png" alt="entry-description">
-                <h4>Sample Image Post</h4>
-                <p>Photography</p>
+                <div class="entry__description__word">
+                  <h4>Sample Image Post</h4>
+                  <p>Photography</p>
+                </div>
             </div>
-            <img src="./img/entry-image.png" alt="entry-img" class="entry_img">
+            <img src="./img/entry-image.png" alt="entry-img" class="entry__img">
         </li>
         <li>
-            <div class="entry_date">
+            <div class="entry__date">
                 <h4>29</h4>
                 <p>Nov. 2013</p>
             </div>
-            <div class="entry_description">
+            <div class="entry__description">
                 <img src="./img/entrybutton.png" alt="entry-description">
-                <h4>Sample Image Post</h4>
-                <p>Photography</p>
+                <div class="entry__description__word">
+                  <h4>Sample Image Post</h4>
+                  <p>Photography</p>
+                </div>
             </div>
-            <img src="./img/entry-image.png" alt="entry-img" class="entry_img">
+            <img src="./img/entry-image.png" alt="entry-img" class="entry__img">
         </li>
-        <div class="section_divider">
+        <div class="entry__divider">
             <hr>
-            <hr align="left" style="border: solid 1px rgb(58, 156, 201); width: 30%;">
+            <hr>
         </div>
     </ul>
-</div>
-
-</div>
+  </section>
 
 
-  <!-- <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script> -->
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <!-- <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script> -->
+    <!-- <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script> -->
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <!-- <script>
+      window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+      ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script> -->
 
 
   <!-- Our latest Projects -->
-  <div class="latest__project">
+  <div class="page__project">
     <H5>Our Latest Projects</H5>
     <p>Client happy? We are happy.</p>
 
@@ -196,216 +209,221 @@
   </div>
 
 
-<!-- Thingsofabove -->
-<div class="page__thingsofabove">
-  <H5>Thingsofabove</H5>
-  <p>Misc stuff we could not put anyplace else</p>
+  <!-- Thingsofabove -->
+  <div class="page__thingsofabove">
+    <H5>Thingsofabove</H5>
+    <p>Misc stuff we could not put anyplace else</p>
 
-  <div class="section-demo">
-    <div class="accor">
-      <p>
-        Sample Accordion Menu
-      </p> 
+    <div class="section-demo">
+      <div class="accor">
+        <p>
+          Sample Accordion Menu
+        </p> 
 
-      <figure class="web-solution">
-        <img src="img/web-solution.png" alt="img description"/>
-      </figure>
-    </div>
-
-    <div class="tab">
-      <button class="tablinks" onclick="openCity(event, 'London')">Tab 1</button>
-      <button class="tablinks" onclick="openCity(event, 'Paris')">Tab 2</button>
-      <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tab 3</button>
-    
-      <!-- Tab content -->
-      <div class="tabcontent">
-        <h3>Tab 1</h3>
-      </div>
-      
-      <div class="tabcontent">
-        <h3>Tab 2</h3>
-      </div>
-      
-      <div class="tabcontent">
-        <h3>Tab 3</h3>
-      </div>
-
-      <div class="tab-image">
-        <figure class="tab-image-pic">
-          <img src="img/tab.png" alt="img description"/>
+        <figure class="web-solution">
+          <img src="img/web-solution.png" alt="img description"/>
         </figure>
+      </div>
+
+      <div class="tab">
+        <button class="tablinks" onclick="Tab(tab, 'Tab 1')">Tab 1</button>
+        <button class="tablinks" onclick="Tab(tab, 'Tab 2')">Tab 2</button>
+        <button class="tablinks" onclick="Tab(tab, 'Tab 3')">Tab 3</button>
+      
+        <!-- Tab content -->
+        <div class="tabcontent">
+          <h3>Tab 1</h3>
+        </div>
+        
+        <div class="tabcontent">
+          <h3>Tab 2</h3>
+        </div>
+        
+        <div class="tabcontent">
+          <h3>Tab 3</h3>
+        </div>
+
+        <div class="tab-image">
+          <figure class="tab-image-pic">
+            <img src="img/tab.png" alt="img description"/>
+          </figure>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-<!-- Client logo -->  
-<div class="page__client">
-  <figure class="client-logo">
-    <img src="img/logo_netbeans.png" alt="img description"/>
-  </figure>
-  <figure class="client-logo">
-    <img src="img/logo_krita.png" alt="img description"/>
-  </figure>
-  <figure class="client-logo">
-    <img src="img/logo_scirra.png" alt="img description"/>
-  </figure>
-  <figure class="client-logo">
-    <img src="img/logo_blender.png" alt="img description"/>
-  </figure>
-  <figure class="client-logo">
-    <img src="img/logo_inkscape.png" alt="img description"/>
-  </figure>
-</div>
-
+  <!-- Client logo -->  
+  <div class="page__client">
+    <figure class="client-logo">
+      <img src="img/logo_netbeans.png" alt="img description"/>
+    </figure>
+    <figure class="client-logo">
+      <img src="img/logo_krita.png" alt="img description"/>
+    </figure>
+    <figure class="client-logo">
+      <img src="img/logo_scirra.png" alt="img description"/>
+    </figure>
+    <figure class="client-logo">
+      <img src="img/logo_blender.png" alt="img description"/>
+    </figure>
+    <figure class="client-logo">
+      <img src="img/logo_inkscape.png" alt="img description"/>
+    </figure>
+  </div>
+</main>
 
 <!-- Footer -->
 <footer class="page__footer">
+  <section class="footer__main">
 
-  <div class="footer-header-row">
-    <div class="portrait">
-      <figure class="portrait">
-        <img src="img/peewee.png" alt="img description"/>
-      </figure>
-      
-      <p>
-      Peewee Herman
-      </p>
-
-      <p>
-      Peewee has over 10 years experience in the industry. He is our Creative Director, digital designer, 
-      web designer and front-end developer. He is also pretty good with a sketchbook. Before starting the 
-      company Peewee worked as a designer and studio manager for a design house who boasted a number of big name clients.
-      </p>
-    </div>
-    <hr>
-  </div>
-
-  <div class="footer-content-row">
-
-    <div class="column-span-about">
-      <div class="heading">About Us</div>
-    
-        <hr/>
-
-        <p>
-          Minions ipsum potatoooo potatoooo uuuhhh. Chasy poulet tikka masala jiji wiiiii hahaha po kass tulaliloo potatoooo. 
-          Bee do bee do bee do chasy ti aamoo! Po kass daa bee do bee do bee do po kass wiiiii butt chasy. Pepete uuuhhh 
-          hahaha gelatooo belloo! Bananaaaa aaaaaah butt 
-        </p>
-      
-        <section class="aboutus_socialmedia">
-  
-          <figure class="aboutus_social">
-              <img src="img/social_1.png" alt="img description"/>
-          </figure>
-          <figure class="aboutus_social">
-              <img src="img/social_2.png" alt="img description"/>
-          </figure>
-          <figure class="aboutus_social">
-              <img src="img/social_3.png" alt="img description"/>
-          </figure>
-          <figure class="aboutus_social">
-              <img src="img/social_4.png" alt="img description"/>
-          </figure>
-          <figure class="aboutus_social">
-              <img src="img/social_5.png" alt="img description"/>
-          </figure>
-        </section>
-    </div>
-  
-
-    <div class="column-span-flickr">
-      <div class="heading">Flickr Photos</div>
-    
-        <hr/>
-
-        <section class="flickr-millions">
-          <figure class="flickr-millions-image">
-            <img src="img/millions_1.png" alt="img description"/>
-          </figure>
-
-          <figure class="flickr-millions-image">
-            <img src="img/millions_2.png" alt="img description"/>
-          </figure>
-
-          <figure class="flickr-millions-image">
-            <img src="img/millions_3.png" alt="img description"/>
-          </figure>
-
-          <figure class="flickr-millions-image">
-            <img src="img/millions_4.png" alt="img description"/>
-          </figure>
-
-          <figure class="flickr-millions-image">
-            <img src="img/millions_5.png" alt="img description"/>
-          </figure>
-
-          <figure class="flickr-millions-image">
-            <img src="img/millions_6.png" alt="img description"/>
-          </figure>
-        </section>
-
-    </div>
-
-    <div class="column-span-recent">
-      <div class="heading">Recent Tweets</div>
-    
-        <hr/>
+    <div class="footer-header-row">
+      <div class="portrait">
+        <figure class="portrait">
+          <img src="img/peewee.png" alt="img description"/>
+        </figure>
         
-        <div class="tweets-container">
-          <figure class="tweets-icon">
-            <img src="img/twitter.png" alt="img description"/>
-          </figure>
+        <div class="portrait_intro">
+          <p>
+          Peewee Herman
+          </p>
 
-          <div class="tweet-msg">
-              <span class="recent-tweets">@Minions</span>
-              <span class="tweets-words">- ipsum potatoooo potatoooo uuuhhh. Chasy poulet tikka masala jiji wiiiii hahaha po kass</span> 
-          </div>
-      </div>   
+          <p>
+          Peewee has over 10 years experience in the industry. He is our Creative Director, digital designer, 
+          web designer and front-end developer. He is also pretty good with a sketchbook. Before starting the 
+          company Peewee worked as a designer and studio manager for a design house who boasted a number of big name clients.
+          </p>
 
-        <div class="tweets-container">
-          <figure class="tweets-icon">
-            <img src="img/twitter.png" alt="img description"/>
-          </figure>
+        </div>
+      </div>
+      <hr>
+    </div>
 
-          <div class="tweet-msg">
-              <span class="recent-tweets">@Minions</span>
-              <span class='tweets-words'>- ipsum potatoooo potatoooo uuuhhh. Chasy poulet tikka masala jiji wiiiii hahaha po kass</span>
+    <div class="footer-content-row">
+
+      <div class="column-span-about">
+        <div class="heading">About Us</div>
+      
+          <hr/>
+
+          <p>
+            Minions ipsum potatoooo potatoooo uuuhhh. Chasy poulet tikka masala jiji wiiiii hahaha po kass tulaliloo potatoooo. 
+            Bee do bee do bee do chasy ti aamoo! Po kass daa bee do bee do bee do po kass wiiiii butt chasy. Pepete uuuhhh 
+            hahaha gelatooo belloo! Bananaaaa aaaaaah butt 
+          </p>
+        
+          <section class="aboutus_socialmedia">
+    
+            <figure class="aboutus_social">
+                <img src="img/social_1.png" alt="img description"/>
+            </figure>
+            <figure class="aboutus_social">
+                <img src="img/social_2.png" alt="img description"/>
+            </figure>
+            <figure class="aboutus_social">
+                <img src="img/social_3.png" alt="img description"/>
+            </figure>
+            <figure class="aboutus_social">
+                <img src="img/social_4.png" alt="img description"/>
+            </figure>
+            <figure class="aboutus_social">
+                <img src="img/social_5.png" alt="img description"/>
+            </figure>
+          </section>
+      </div>
+    
+
+      <div class="column-span-flickr">
+        <div class="heading">Flickr Photos</div>
+      
+          <hr/>
+
+          <section class="flickr-millions">
+            <figure class="flickr-millions-image">
+              <img src="img/millions_1.png" alt="img description"/>
+            </figure>
+
+            <figure class="flickr-millions-image">
+              <img src="img/millions_2.png" alt="img description"/>
+            </figure>
+
+            <figure class="flickr-millions-image">
+              <img src="img/millions_3.png" alt="img description"/>
+            </figure>
+
+            <figure class="flickr-millions-image">
+              <img src="img/millions_4.png" alt="img description"/>
+            </figure>
+
+            <figure class="flickr-millions-image">
+              <img src="img/millions_5.png" alt="img description"/>
+            </figure>
+
+            <figure class="flickr-millions-image">
+              <img src="img/millions_6.png" alt="img description"/>
+            </figure>
+          </section>
+
+      </div>
+
+      <div class="column-span-recent">
+        <div class="heading">Recent Tweets</div>
+      
+          <hr/>
+          
+          <div class="tweets-container">
+            <figure class="tweets-icon">
+              <img src="img/twitter.png" alt="img description"/>
+            </figure>
+
+            <div class="tweet-msg">
+                <span class="recent-tweets">@Minions</span>
+                <span class="tweets-words">- ipsum potatoooo potatoooo uuuhhh. Chasy poulet tikka masala jiji wiiiii hahaha po kass</span> 
+            </div>
+        </div>   
+
+          <div class="tweets-container">
+            <figure class="tweets-icon">
+              <img src="img/twitter.png" alt="img description"/>
+            </figure>
+
+            <div class="tweet-msg">
+                <span class="recent-tweets">@Minions</span>
+                <span class='tweets-words'>- ipsum potatoooo potatoooo uuuhhh. Chasy poulet tikka masala jiji wiiiii hahaha po kass</span>
+            </div>
+        </div>
+      </div>  
+
+
+      <div class="column-span-newsletter">
+        <div class="heading">Newsletter</div>
+          
+          <hr/>
+
+          <p>
+          Minions ipsum potatoooo potatoooo uuuhhh. Chasy poulet tikka masala jiji wiiiii 
+          hahaha po kass tulaliloo potatoooo. Bee do bee do bee do chasy ti aamoo! Po kass 
+          daa b ee do bee do bee do po kass wiiiii butt chasy. Pepete uuuhhh 
+          </p>
+          
+          <div class ="subscribe-section">
+            <div class="subscribe-email">
+              <textarea id="email" name="email" placeholder="Enter your Email.."></textarea>
+            </div>
+
+            <span class="subscribe-icon">
+              <img src="img/send-icon.png" alt="img description"/>
+            </span>
           </div>
       </div>
-    </div>  
-
-
-    <div class="column-span-newsletter">
-      <div class="heading">Newsletter</div>
-        
-        <hr/>
-
-        <p>
-        Minions ipsum potatoooo potatoooo uuuhhh. Chasy poulet tikka masala jiji wiiiii 
-        hahaha po kass tulaliloo potatoooo. Bee do bee do bee do chasy ti aamoo! Po kass 
-        daa b ee do bee do bee do po kass wiiiii butt chasy. Pepete uuuhhh 
-        </p>
-        
-        <div class ="subscribe-section">
-          <div class="subscribe-email">
-            <textarea id="email" name="email" placeholder="Enter your Email.."></textarea>
-          </div>
-
-          <span class="subscribe-icon">
-            <img src="img/send-icon.png" alt="img description"/>
-          </span>
-        </div>
     </div>
-  </div>
 
-  <hr/>
+    <hr/>
 
-  <div class="footer-bar">
-    <img src="img/footer-bar.png" alt="img description"/>
-  </div>
+    <div class="footer-bar">
+      <img src="img/footer-bar.png" alt="img description"/>
+    </div>
 
+  </section>
 </footer>
 
 </body>
