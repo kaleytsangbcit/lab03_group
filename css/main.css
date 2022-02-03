@@ -843,4 +843,34 @@
       height: 150px;
     }
 
+    .footer-bar {
+      position: absolute;
+      right: 30px;
+      left: 30px;
+    }
+  }
+  /* Tablet */
+
+  @media screen and (min-width: 40em) and (max-width: 763.9375em) {
+    .projects {
+      grid-template-columns: repeat(2, 1fr);
+      margin: auto;
+    }
+
+    .section-demo {
+      flex-direction: column;
+      align-items: center
+    }
+
+    .web-solution {
+      justify-content: center;
+    }
+
+    .tab {
+      justify-content: center;
+    }
+
+    .footer-content-row {
+      grid-template-columns: 1fr 1fr;
+    }
   }
