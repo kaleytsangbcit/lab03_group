@@ -218,7 +218,12 @@
     margin-left: 215px;
     margin-top: -45px;
   }
-  
+  .hidden1 .camera{
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 229px;
+  }
+
   .hidden1, .hidden2 {
     display: none;
   }
@@ -802,7 +807,72 @@
 /* Mobile */
 
    @media screen and (max-width: 39.9375em) {
+    .mobilehead {
+      display: flex;
+      align-items: center;
+    }
+    .logo {
+      margin-left: auto;
+    }
+  
+    .hamburger {
+      display: flex;
+      margin-right: auto;
+    }
+    
+    .main__img {
+      display: none;
+    }
+    
+    .btn__home {
+      display: none;
+    }
+    .btn__pages {
+      display: none;
+    }
+    .btn__blog {
+      display: none;
+    }
+    .btn__portfolio{
+      display: none;
+    }
+    .btn__contact {
+      display: none;
+  
+    }
+    .column__span__3 {
+      font-size: x-small;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+    }
 
+
+    
+
+    .bold {
+      font-size: 12px;
+      font-weight: bold;
+    }
+    .column__span__3 .img1 {
+      width: 50px;
+      height: 50px;
+    }
+    .img1 > img {
+      width: 20px;
+      top: 0;
+    }
+    .hidden1{
+      display: flex;
+    }
+
+    .hidden2 {
+      display: none;
+    }
+    .column__span__4 {
+      display: grid;
+      justify-content: center;
+    }
     .projects {
       grid-template-columns: repeat(1, 1fr);
       margin: auto;
