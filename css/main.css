@@ -17,6 +17,9 @@
     height: 30px;
     margin-right: 50px;
   }
+  .hamburger {
+    display: none;
+  }
   .logo > div {
     font-size: 25px;
   }
@@ -88,7 +91,9 @@
   
   .main__img {
     display: flex;
-    justify-content: center;
+    margin-left: -230px;
+    width: 1240px;
+    height: 511px;
   }
   .slider__slider{
     position: relative;
@@ -214,7 +219,9 @@
     margin-top: -45px;
   }
   
-
+  .hidden1, .hidden2 {
+    display: none;
+  }
 
    .page__slider {
      width: 100%;
@@ -853,6 +860,51 @@
   /* Tablet */
 
   @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    .hamburger {
+      display: none;
+    }
+    
+    .main__img{
+      height: 300px;
+      margin-left: 30px;
+    }
+    .slider__content {
+      margin-top: -180px;
+      margin-left: 250px;
+    }
+    
+    .slider__left {
+      margin-top: -300px;
+      margin-left: 100px;
+    }
+    
+    .slider__right {
+      margin-top: -300px;
+      margin-left: 500px;
+    }
+
+    .column__span__3 {
+      flex-wrap: wrap;
+  }
+
+  .column__span__4 {
+    max-width: 550px;
+    flex-wrap: wrap;
+    margin-left: 130px;
+  }
+  .hidden2 {
+    display: flex;
+  }
+  .hidden2 .cameraicon{
+    margin-left: -50px;
+    margin-top: 182px;
+  }
+
+  .hidden1 {
+    display: none;
+  }
+  
+
     .projects {
       grid-template-columns: repeat(2, 1fr);
       margin: auto;
