@@ -884,9 +884,9 @@
     }
 
     .column__span__3 {
-      flex-wrap: wrap;
-  }
-
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
   .column__span__4 {
     max-width: 550px;
     flex-wrap: wrap;
