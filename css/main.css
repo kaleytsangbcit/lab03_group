@@ -229,7 +229,11 @@
     margin-left: 0px;
     margin-top: 229px;
   }
-
+  .hidden2 .camera {
+    position: absolute;
+    margin-left: 265px;
+    margin-top: 0px;
+  }
   .hidden1, .hidden2 {
     display: none;
   }
@@ -991,12 +995,12 @@
     }
 
     .column__span__4 {
-      max-width: 550px;
-      flex-wrap: wrap;
-      margin-left: 130px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-left: 80px;
     }
     .hidden2 {
-      display: flex;
+      display: grid;
     }
     .hidden2 .cameraicon{
       margin-left: -50px;
